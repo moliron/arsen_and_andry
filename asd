@@ -1,0 +1,1 @@
+“ First Light promises quality, timeless designs and with our mission it is truly a buy it for life purchase. “
