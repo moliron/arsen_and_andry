@@ -66,13 +66,13 @@ function App() {
       </div>
       <div className="items-center justify-between flex">
         <div className=' flex w-1/2'>
-          <img src={left} alt="" className='ml-[150px]' />
-          <img src={frami} alt="" className='h-[600px]' />
-          <img src={right} alt="" className='' />
+          <img src={left} alt="" className='ml-[140px] scalee' />
+          <img src={frami} alt="" className='h-[600px] scale' />
+          <img src={right} alt="" className='scalee' />
         </div>
         <div className="w-1/2 relative">
           <img src={image} alt="" className='w-full' />
-          <button className='bg-black text-white absolute px-4 py-2 left-10 bottom-7 rounded-[10px]'>Shop Shirts</button>
+          <button className='scale bg-black text-white absolute px-4 py-2 left-10 bottom-7 rounded-[10px]'>Shop Shirts</button>
         </div>
       </div>
       <div className="flex">
@@ -83,11 +83,13 @@ function App() {
         <div className=" w-full h-[44px] "></div>
         <div className="men w-[596px] h-[636px] ml-80 rounded-[10px] relative">
           <img src={men} alt="" />
-          <button className='bg-black text-white absolute ml-[20px] px-4 py-3 bottom-10 rounded-[10px] '>Shop Sweaters</button>
+          <button className='scale bg-black text-white absolute ml-[20px] px-4 py-3 bottom-10 rounded-[10px] '>Shop Sweaters</button>
         </div>
         <div className="box w-[596px] h-[636px] ml-[940px] mt-[-635px] rounded-[10px]">
-          <p className='text-[40px] py-[60px] ml-10 font-bold'>“ First Light promises <br /> quality, timeless designs <br /> and with our mission it is <br /> truly a buy it for life <br /> purchase. “</p>
-          <p className='ml-10 mt-[170px] text-xl'>— Guera Latissa, Creative Director</p>
+          <div className="scaleee ">
+          <p className='text-[40px] py-[40px] ml-10 font-bold  '>“ First Light promises <br /> quality, timeless designs <br /> and with our mission it is <br /> truly a buy it for life <br /> purchase. “</p>
+          <p className='ml-10 mt-[170px] text-xl '>— Guera Latissa, Creative Director</p>
+          </div>
         </div>
       </div>
       <div className="mt-16 ml-[-45px] flex justify-center items-center">
@@ -100,7 +102,7 @@ function App() {
       </div>
       <div className="flex justify-center ml-14 mt-[-22px]">
         <p>MEN</p>
-        <img src={up} alt="" className='px-[5px]' />
+        <img src={up} alt="" className=' px-[5px]' />
       </div>
       <div className="">
         <div className=" w-full h-[54px] "></div>
@@ -131,44 +133,44 @@ function App() {
       <div className="">
         <p className='mt-9 text-[40px] font-bold items-center justify-center flex'>Women — Must Haves</p>
         <div className="mt-11 items-center flex justify-center gap-8">
-          <img src={but} alt="" />
+          <img src={but} alt="" className='scalee' />
           <div className="">
-            <div className="men w-[320px] h-[420px] rounded-[10px] "><img src={model} alt="" /></div>
+            <div className="men w-[320px] h-[420px] scale blur-image rounded-[10px] "><img src={model} alt="" /></div>
             <div className="flex justify-between mt-6">
               <p>Basic Shirt</p>
               <p>€49</p>
             </div>
           </div>
           <div className="">
-            <div className="men w-[320px] h-[420px] rounded-[10px] "><img src={model2} alt="" /></div>
-            <div className="flex justify-between mt-6">
+            <div className="men w-[320px] h-[420px] scale blur-image rounded-[10px] "><img src={model2} alt="" /></div>
+            <div className="flex justify-between mt-6 ">
               <p>Beige Jumper</p>
               <p>€99</p>
             </div>
           </div>
           <div className="">
-            <div className="men w-[320px] h-[420px] rounded-[10px] "><img src={model3} alt="" /></div>
+            <div className="men w-[320px] h-[420px] scale blur-image rounded-[10px] "><img src={model3} alt="" /></div>
             <div className="flex justify-between mt-6">
               <p>Signature Jacket</p>
               <p>€249</p>
             </div>
           </div>
           <div className="">
-            <div className="men w-[320px] h-[420px] rounded-[10px] "><img src={model4} alt="" /></div>
+            <div className="men w-[320px] h-[420px] scale blur-image rounded-[10px] "><img src={model4} alt="" /></div>
             <div className="flex justify-between mt-6">
               <p>Navy Jumper</p>
               <p>€49</p>
             </div>
           </div>
-          <img src={but2} alt="" />
+          <img src={but2} className='scalee' alt="" />
         </div>
       </div>
       <div className="relative">
         <p className='flex justify-center items-center mt-6 text-[40px]'>We always have your back</p>
         <img src={frame1} alt="" className='mt-[20px] ml-[340px]' />
-        <button className='bg-black text-white absolute px-4 py-2 left-10 bottom-3 ml-[450px] rounded-[10px]'>100% Premium Cotton <br /> We use ethically sourced cotton only.</button>
-        <button className='bg-black text-white absolute px-4 py-2 left-10 bottom-[343px] ml-[1100px] rounded-[10px]'>Made in Portugal <br />With hand finished details </button>
-        <button className='bg-black text-white absolute px-4 py-2 left-10 bottom-3 ml-[1070px] rounded-[10px]'>Breathable material<br />Keeping you cool throughout the day</button>
+        <button className='scale bg-black text-white absolute px-4 py-2 left-10 bottom-3 ml-[450px] rounded-[10px]'>100% Premium Cotton <br /> We use ethically sourced cotton only.</button>
+        <button className='scale bg-black text-white absolute px-4 py-2 left-10 bottom-[343px] ml-[1100px] rounded-[10px]'>Made in Portugal <br />With hand finished details </button>
+        <button className='scale bg-black text-white absolute px-4 py-2 left-10 bottom-3 ml-[1070px] rounded-[10px]'>Breathable material<br />Keeping you cool throughout the day</button>
       </div>
       <div className="flex justify-between border-b-2 mt-10 ml-[340px] border-t-2 w-[1216px] h-16 ">
         <div className="flex">
@@ -193,20 +195,21 @@ function App() {
         <div className="-mt-10">
           <div className="bg-white h-[610px] w-[608px]  rounded-r-md mt-10">
             <div className="ml-12">
-            <p className='text-[32px] py-16 mt-20'>Visit our popup shop</p>
-            <p className='-mt-3'>Willemsparkweg 63 <br/> 1071 GS Amsterdam <br/> The Netherlands</p>
-            <div className="mt-7 flex">
-            <div className="">
-            <p className='h-[100px] w-[102px] leading-10 text-[16px]'>Monday Tuesday Wednesday Thursday Friday Saturday Sunday</p>
-            </div>
-            <div className="">
-            <p className='h-[10px] w-[100px] ml-28 leading-10 text-[16px]'>12.00 - 19.00 10.00 - 19.00 10.00 - 19.00 10.00 - 21.00 10.00 - 19.00 10.00 - 18.00 12.00 - 18.00</p>
-            </div>
-            </div>
+              <p className='text-[32px] py-16 mt-20'>Visit our popup shop</p>
+              <p className='-mt-3'>Willemsparkweg 63 <br /> 1071 GS Amsterdam <br /> The Netherlands</p>
+              <div className="mt-7 flex">
+                <div className="">
+                  <p className='h-[100px] w-[102px] leading-10 text-[16px]'>Monday Tuesday Wednesday Thursday Friday Saturday Sunday</p>
+                </div>
+                <div className="">
+                  <p className='h-[10px] w-[100px] ml-28 leading-10 text-[16px]'>12.00 - 19.00 10.00 - 19.00 10.00 - 19.00 10.00 - 21.00 10.00 - 19.00 10.00 - 18.00 12.00 - 18.00</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <div className="color w-full h-9 mt-10"></div>
     </div>
   );
 }

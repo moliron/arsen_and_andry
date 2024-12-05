@@ -35,3 +35,33 @@ code {
 .color{
   background-color: #F3F3F3;
 }
+
+.blur-image {
+  filter: blur(1px); 
+  transition: 2s; 
+}
+.blur-image:hover {
+  filter: blur(0);
+}
+
+.scale {
+  transition: 0.5s;
+ }
+ .scale:hover {
+  transform: scale(1.1);
+ }
+
+ .scalee {
+  transition: 0.5s;
+ }
+ .scalee:hover {
+  transform: scale(1.5);
+ }
+
+ .scaleee {
+  transition: 0.5s;
+ }
+ .scaleee:hover {
+  transform: scale(1.05);
+ }
+     
